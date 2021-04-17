@@ -1,0 +1,44 @@
+{"intents": [
+  {
+    "tag": "greetings",
+    "patterns": ["Hi", "Hey", "Is anyone there", "Hello", "what's up", "whats up"],
+    "responses": ["Hello!, Please ask me your question", "Hi there, Please ask me your question"],
+    "context_set": ""
+  },
+
+  {
+    "tag": "goodbye",
+    "patterns": ["See you later", "Goodbye", "Good bye", "Good night"],
+    "responses": ["Sad to see you go, but you can ask me one more questions, am still her", "Goodbye, but for any more questions, am still here"],
+    "context_set": ""
+  },
+
+  {
+    "tag": "good",
+    "patterns": ["Good morning", "Good afternoon", "Good evening"],
+    "responses": ["Hello our dearest farmer, Please ask me your question", "A very good day to you, Please ask me your question"],
+    "context_set": ""
+  },
+
+  {
+    "tag": "how",
+    "patterns": ["How are you", "How do you do", "how are you doing"],
+    "responses": ["I'm doing well, DO you have any questions for me", "I'm fine, Do you have any questions for me"],
+    "context_set": ""
+  },
+
+  {
+    "tag": "yes",
+    "patterns": ["Yes", "of course", "indeed"],
+    "responses": ["Alright then, Ask me your question", "Well then, Ask me your question"],
+    "context_set": ""
+  },
+
+   {
+    "tag": "no",
+    "patterns": ["No", "not really"],
+    "responses": ["Ohh, I guess I will be hearing from you later"],
+    "context_set": ""
+  }
+
+]}
